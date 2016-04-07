@@ -5,7 +5,7 @@ Glisy example using
 [glsl-hash-blur](https://github.com/stackgl/glsl-hash-blur) and
 [glsl-checker](https://github.com/mattdesl/glsl-checker) from stack.gl
 
-[!](screenshot.png)
+![](screenshot.png)
 
 ## installation
 
