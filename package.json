@@ -9,6 +9,7 @@
     "checker",
     "blur"
   ],
+  "global": true,
   "install": "make && cp -f program ${PREFIX:/usr/local}/bin/glsl-checker-blur",
   "dependencies": {
     "glisy/glfw-shell": "0.0.5",
