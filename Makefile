@@ -24,8 +24,7 @@ $(TARGET): $(SRC)
 $(GLSL_COMPILELD): $(GLSL)
 	$(GLSLIFY) $(@:.compiled=) -o $@
 
-$(GLSL):
-	node_modules/
+$(GLSL): node_modules/
 
 $(SRC): deps/
 
