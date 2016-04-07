@@ -1,0 +1,24 @@
+{
+  "name": "glsl-checker-blur",
+  "version": "0.0.1",
+  "repo": "glisy/glsl-checker-blur",
+  "description": "Glisy example using glsl-hash-blur and glsl-check from stack.gl",
+  "keywords": [
+    "glsl",
+    "stack.gl",
+    "checker",
+    "blur"
+  ],
+  "install": "make && cp -f program ${PREFIX:/usr/local}/bin/glsl-checker-blur",
+  "dependencies": {
+    "glisy/glfw-shell": "0.0.5",
+    "glisy/geometry": "0.0.2",
+    "glisy/uniform": "0.0.1",
+    "glisy/program": "0.0.4",
+    "glisy/shader": "0.0.1",
+    "glisy/color": "0.0.5",
+    "glisy/math": "0.0.4",
+    "glisy/gl": "0.0.1",
+    "jwerle/fs.c": "0.1.2"
+  }
+}
